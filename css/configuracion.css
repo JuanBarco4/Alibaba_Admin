@@ -6,5 +6,28 @@
 
 html {
     font-size: 10px;
-    font-family: monospace;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+:root {
+    --background: #FEE4D4;
+    --background2: #FFD1B7;
+    --shadow: #FDB493;
+    --shadow2: #FB966F;
+    --shadow3: #F45F34;
+    --text-color: #302825;
+    --input-color: #f6f8fc;
+    --text-color2: #707E8D;
+}
+
+/* Activador de elementos*/
+.activar-block {
+    display: none !important;
+}
+.activar-flex {
+    display: flex !important;
+}
+
+.desactivar {
+    display: none;
 }

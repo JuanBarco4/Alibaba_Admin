@@ -1,19 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log In</title>
 
     <!-- Archivos CSS -->
     <link rel="stylesheet" href="css/configuracion.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/administrador.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <section class="section-login activar-flex" id="section-login">    
+            <div class="formulario">
+                <form class="form" action="" id="login">
+                    <label for="" class="title">
+                        Log In
+                    </label>
+                    <label for="" class="user">
+                        Username
+                    </label>
+                    <label for="">
+                        
+                        <input type="text" id="username">
+                    </label>
+
+                    <label for="" class="pass">
+                        Password
+                    </label>
+                    <label for="">
+                        
+                        <input type="password" id="password">
+                    </label>
+                    <label for="" class="pass2">
+                        Forgot password?
+                    <button>LOG IN</button>
+                    </label>
+                </form>
+                <div class="alibaba">
+                    <img class="alibaba_logo" src="https://residuosycreatividad.files.wordpress.com/2015/03/alibaba-logo.png" alt="">
+                    <img class="decoracion" src="https://padecoglobal.com/wp-content/uploads/2022/02/alibaba_vector_compras_en_linea_padeco.svg" alt="">
+                </div>
+            </div>
+    </section>
+
+    <section class="section-administrador activar-block" id="section-administrador">
+        <nav>Menú</nav>
+    </section>
 
     <!-- Archivos de programación -->
-    <script src="./js/Main.js"></script>
+    <script src="./js/Main.js" type="module"></script>
 </body>
 </html>
